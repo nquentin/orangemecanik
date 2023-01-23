@@ -1,0 +1,32 @@
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Fontawesome
+// importing core styling file
+@import "./fontawesome/scss/fontawesome.scss";
+
+// our project needs Solid + Brands
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.om-main-title {
+  font-family: 'DM Serif Display', serif;
+
+  &-lg {
+    background-image: url("data:image/svg+xml,%3Csvg width='140' height='9' viewBox='0 0 140 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M136.945 6.33313C116.473 4.94272 91.4331 4.50609 61.9436 5.49535C43.9722 6.09875 24.3476 7.22669 3.11511 8.98878C1.55077 9.1186 0.161905 8.1182 0.0129997 6.7543C-0.135906 5.39041 1.01153 4.17952 2.57588 4.04969C23.909 2.27925 43.6406 1.14479 61.7247 0.53761L61.7248 0.537607C91.3947 -0.457702 116.659 -0.0211161 137.387 1.38671C138.954 1.49311 140.125 2.68667 140.003 4.05258C139.881 5.4185 138.512 6.43954 136.945 6.33313Z' fill='%23FB923C'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: inline-block;
+  }
+}
+
+.wave-red-home {
+  background-size: 180px;
+  height: 130px;
+}
